@@ -32,9 +32,11 @@ Then open **http://127.0.0.1:8765** in your browser.
 
 ## How to use
 
-1. Paste any YouTube URL (`youtube.com/watch`, `youtu.be`, Shorts, live, music links all work).
-2. Hit **Fetch** — you'll see the title, thumbnail, one-click **Download MP4** / **Download MP3** buttons (each shows the resolution and bitrate you'll actually get), and a table of **direct source URLs** for every stream (format ID, resolution, size, copyable link).
-3. Clicking a download button fetches and converts the file, then your browser saves it to its usual download folder — the app cleans up after itself, so there's only ever the one copy.
+**Single video:** paste any YouTube URL (`youtube.com/watch`, `youtu.be`, Shorts, live, music links all work), hit **Fetch** — you'll see the title, thumbnail, one-click **Download MP4** / **Download MP3** buttons (each shows the resolution and bitrate you'll actually get), and a table of **direct source URLs** for every stream (format ID, resolution, size, copyable link). Downloads show a live progress bar while they run.
+
+**Batch:** open the **Batch download** page, paste one URL per line, hit **Fetch all**. Every row shows its bitrates with its own MP4/MP3 buttons, or use **Download all as MP4 / MP3** to queue the whole list.
+
+**Download folder:** set it on the home page — it's remembered between runs. Files download there and stay there; that's the one and only copy (the page downloads in the background, nothing extra lands in your browser's folder).
 
 ## Notes
 
